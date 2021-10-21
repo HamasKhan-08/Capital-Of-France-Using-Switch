@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    char capital;
+    cout << "What is the capital of France? Select one of the option below " << endl;
+    cout << "Enter 'P' for Paris" << endl;
+    cout << "Enter 'D' for Dubai" << endl;
+    cout << "Enter 'N' if you don't know " << endl;
+    
+    cin >> capital;
+    switch (capital)
+    {
+    case 'P':
+    case 'p':
+    {
+        cout << "You are right, the capital of France is Paris" << endl;
+        break;
+    }
+    case 'd':
+    case 'D':
+    {
+        cout << "You are absolutely  wrong, the capital of France is Paris not Dubai " << endl;
+        break;
+      }
+    case 'n':
+    case 'N':
+    {
+        cout << "The capital of France is Paris" << endl;
+        break; 
+    }}
+}
